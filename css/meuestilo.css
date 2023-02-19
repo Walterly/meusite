@@ -23,7 +23,7 @@ body{
     background-color: bisque;
 }
 header{
-    width: 98.2%;
+   
     background-color: var(--cor-01);
     text-align: center;
     padding: 10px;
@@ -86,8 +86,12 @@ main > h1{
 }
 
 #videoapresentacao{
-    background-color: rgba(100, 27, 27, 0.555);
+    background-color: ;
     margin: 30px;
+}
+#videoapresentacao > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #destaques > article p {
 color: white;
@@ -96,6 +100,9 @@ text-align: justify;
 font-size: 1em;
 margin: 5px;
 padding: 4px;
+text-indent: 2em;
+line-height: 1.5em;
+
 }
 #destaques > article h2{
 color: white;
