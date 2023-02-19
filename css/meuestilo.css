@@ -10,9 +10,11 @@ body{
     max-width: auto;
 }
 header{
-    width: 100%;
+    width: 98.2%;
     background-color: brown;
     text-align: center;
+    padding: 10px;
+    margin: 0px 3px 0px 3px;
 }
 
 header > h1{
@@ -50,7 +52,31 @@ a:hover{
     background-color: darkgray;
     color: antiquewhite;
 }
-
+main{
+    width: 800px;
+    max-width: 100%;
+    min-width: 470px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #dfe1e4;
+    
+}
 #videoapresentacao{
     background-color: rgba(100, 27, 27, 0.555);
+}
+#destaques > article p {
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+font-size: 1em;
+margin: 5px;
+padding: 4px;
+}
+#destaques > article h2{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+text-align: center;
+margin: 7px 0px
+}
+ .africa:hover{
+    opacity: 0.7;
 }
