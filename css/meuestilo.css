@@ -5,7 +5,10 @@
 margin: 0px;
 padding: 0px;
 }
-
+body{
+    min-width: 345px;
+    max-width: auto;
+}
 header{
     width: 100%;
     background-color: brown;
@@ -27,25 +30,16 @@ header > p{
     margin: auto;
 }
 nav{
-   text-align: center;
-   background-image: linear-gradient();
+  
+  text-align: center;
+  background-color: brown;
+  padding: 10px;
+  margin: 1px;
 }
-nav > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-}
-li{
-    display: inline;
-    float: left;
 
-}
-li  a{
- display:block;
-  color: white;
+nav > a{
+ 
+color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
