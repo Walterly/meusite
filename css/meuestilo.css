@@ -67,10 +67,31 @@ a:hover{
     color: antiquewhite;
     padding: 8px;
 }
+aside{
+    width: 400px;
+    min-width: 375px;
+    margin: 3px 3px 0px 30px;
+    display: flexbox;
+    float: left;
+    background-color: var(--cor-02);
+}
+aside > h1{
+font-family: var(--font-destaques);
+font-weight: 400;
+color: white;
+text-align: center;
+margin: 5px 0px 2px 0px;
+padding: 5px;
+}
+aside > section p{
+    text-align: justify;
+    text-indent: 2em;
+    color: white;
+}
 main{
     width: 800px;
     max-width: 100%;
-    min-width: 470px;
+    min-width: 390px;
     margin: 3px auto;
     padding: 10px;
     background-color: #452103;
@@ -89,10 +110,7 @@ main > h1{
     background-color: ;
     margin: 30px;
 }
-#videoapresentacao > p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 #destaques > article p {
 color: white;
 font-family: Arial, Helvetica, sans-serif;
